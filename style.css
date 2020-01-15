@@ -1,0 +1,134 @@
+@import
+  url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+@import 
+url('https://fonts.googleapis.com/css?family=Grenze|Libre+Baskerville&display=swap');   
+
+.info {
+    color: black;
+    background-color: lightgrey;
+    padding: 40px;
+  }
+
+  .info h1,h2,i {
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 600;
+    font-size: 6.5rem;
+    margin-top: 5px;
+    
+  }
+
+  .wrapper {
+    background-color:darkgrey;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .bwphoto {
+    border: 2px solid #ccc;
+    border-radius:4px;
+    box-shadow: 15px 15px #778899;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .bwphoto img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desc {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    /*border:1px solid #ccc;*/
+  }
+
+  h2 {
+    margin:10px;
+    font-size: 50px;
+  }
+
+  .lisTs {
+    list-style-type: square;
+    padding:10px;
+    margin:10px 200px;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3rem;
+     
+  }
+  
+  .name {
+    opacity:0.5;
+    text-align:center;
+    font-size: 1.5rem;
+  }
+  
+  blockquote {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .info h4 {
+    font-size:25px;
+    font-weight:bold;
+    text-align: center;
+    padding: 10px 40px 20px 80px;
+  }
+
+  h4 {
+    font-family: 'Grenze', serif;
+    margin: 10px 20px;
+    margin-top: 30px;
+  }
+
+  h4 a {
+    font-family: 'Libre Baskerville', serif;
+
+  }
+
+  /* Maximum width */
+@media screen and (max-width: 600px) {
+
+  .lisTs {
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding: 5px 10px;
+    list-style-type: disc;
+    text-align: left;
+    
+  }
+
+.bwphoto img {
+    width: 100%;
+    height: auto;
+  }
+
+.bwphoto {
+    /*border: 2px double skyblue;*/
+    border-radius:4px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin: 20px 1px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  blockquote {
+    margin-top: 30px;
+  }
+  
+  h4 {
+    
+    font-family: 'Grenze', serif;
+    margin: 0;
+                
+  }
+  
+  }
